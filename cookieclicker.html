@@ -19,11 +19,11 @@
 	var grandmas = 0;
 	
 	function timer() {
-		cookiecount = cookiecount + autoClick;
-		cookiecount = cookiecount + grandmas*8;
-		cookiecount = cookiecount + farms*2;
-		cookiecount = cookiecount + bakeries*64;
-		update()
+	cookiecount ++ autoClick;
+	cookiecount ++ grandmas*8;
+	cookiecount ++ farms*2;
+	cookiecount ++ bakeries*64;
+	update()
 		
 	}
 	setInterval(timer, 1000)
